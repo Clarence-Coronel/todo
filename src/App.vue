@@ -1,5 +1,5 @@
 <template>
-<div class="bg-orange-300 w-full h-screen flex flex-col gap-10 items-center justify-start p-40">
+<div class="bg-orange-300 w-full h-screen flex flex-col gap-10 items-center justify-start p-40 max-lg:px-5 max-lg:py-10">
     <h1 class="text-4xl text-neutral-800 font-bold">To Do List</h1>
     <form class="flex flex-nowrap items-center gap-4 w-full max-w-[400px]">
         <input v-model="todoInput" class="w-full focus:outline-none p-1 rounded-md bg-neutral-50 border border-neutral-400" type="text" name="todoInput" id="todoInput" placeholder="Wash clothes...">
